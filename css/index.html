@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        .header img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .header_left {
+            float: left;
+            margin-left: 200px;
+        }
+
+        .header_center {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .header_right {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .header {
+            overflow: hidden;
+            margin-top: 200px;
+            background: #FFFFCC;
+            height: 278px;
+        }
+
+        .text {
+            margin-top: 50px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .gyw img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .gyw div {
+            float: left;
+            margin-left: 60px;
+            margin-top: 100px;
+            height: 300px;
+        }
+
+        .gyw p {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .center {
+            /* background: blue; */
+            /* height: 572px; */
+        }
+
+        .gyw h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .center h1 {
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        .gyw {
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .jsyw img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .jsyw {
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .jsyw div {
+            float: left;
+            margin-left: 150px;
+            margin-top: 100px;
+            height: 300px;
+        }
+
+        .jsyw h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .jsyw p {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .xdyw div {
+            float: left;
+            margin-left: 150px;
+            margin-top: 100px;
+        }
+
+        .xdyw img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .xdyw {
+            overflow: hidden;
+            height: 950px;
+        }
+
+        .xdyw h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .xdyw p {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .xdyw div:nth-child(5) {
+            margin-left: 380px;
+        }
+
+        .xText h1 {
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        .xText h2 {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 40px;
+        }
+
+        .ppjz {
+            height: 400px;
+            /* background: pink; */
+        }
+
+        .ppjz p {
+            width: 600px;
+            margin: 20px auto;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* .djk{
+            height: 400px;
+            background: chartreuse;
+        }
+        .djk h2{
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 40px;
+        }
+        .shzr{
+            height: 400px;
+            background: coral;
+        } */
+        .video {
+            /* margin-left: 500px; */
+            margin-top: 100px;
+            /* width: 1000px; */
+            height: 500px;
+        }
+
+        video {
+            width: 600px;
+            margin-left: 450px;
+            margin-top: 100px;
+        }
+
+        .video h2 {
+            text-align: center;
+            margin-top: 30px;
+            /* padding-top: 40px; */
+        }
+
+        .jkbd a {
+            display: block;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+
+        .menu {
+            margin-top: 100px;
+            overflow: hidden;
+            height: 1100px;
+        }
+
+        .jkbd {
+            height: 350px;
+            float: left;
+            width: 50%;
+        }
+
+        .city {
+            height: 350px;
+            float: left;
+            width: 50%;
+        }
+
+        .city p {
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+
+        .menu h2 {
+            margin-left: 100px;
+        }
+
+        .tp p {
+            font-size: 20px;
+            margin-top: 100px;
+            font-weight: bold;
+        }
+
+        .tp {
+            float: left;
+            height: 250px;
+            margin-left: 60px;
+        }
+
+        .tp_ {
+            float: right;
+        }
+
+        .img {
+            width: 1000px;
+            height: 400px;
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+
+        .ck {
+            width: 200px;
+            height: 100px;
+            margin-left: 800px;
+            margin-top: 50px;
+        }
+        .footer {
+            overflow: hidden;
+        }
+        .footer div{
+            float: left;
+            margin-left:100px;
+            margin-top: 50px;
+        }
+        .footer h1{
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+        .foot{
+            margin-left: 400px;
+        }
+        .pl img{
+            width: 300px;
+            height: 300px;
+        }
+        .pl{
+            float: right;
+            margin-right: 100px;
+        }
+        .pl p{
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!--网页头部-->
+        <div class="header">
+            <div class="header_left">
+                <img src="../images/0C5A0879.JPG" alt="">
+                <p class="text">30余载匠心营造 您的安心之选</p>
+            </div>
+            <div class="header_center">
+                <img src="../images/0C5A0279.JPG" alt="">
+                <p class="text">源头直采、全程监测、品质坚守</p>
+            </div>
+            <div class="header_right">
+                <img src="../images/0C5A1017.JPG" alt="">
+                <p class="text">鲜炖燕窝、同城给你送上最温馨的关怀</p>
+            </div>
+        </div>
+
+        <!--主体部分-->
+        <div class="center">
+            <h1>产品中心</h1>
+            <div class="gyw">
+                <h2>干燕窝系列</h2>
+                <div>
+                    <img src="../images/0C5A0279.JPG" alt="">
+                    <p>特大臻品盏</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0288.JPG" alt="">
+                    <p>优质大盏</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0695.JPG" alt="">
+                    <p>精致盏</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0211.JPG" alt="">
+                    <p>大燕条</p>
+                </div>
+            </div>
+            <div class="jsyw">
+                <h2>即食燕窝</h2>
+                <div>
+                    <img src="../images/0C5A0814.JPG" alt="">
+                    <p>50ml调养饮品</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0859.JPG" alt="">
+                    <p>75ml滋补饮品</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A1033.JPG" alt="">
+                    <p>100ml奢补饮品</p>
+                </div>
+            </div>
+            <div class="xdyw">
+                <h2>鲜炖燕窝</h2>
+                <div>
+                    <img src="../images/0C5A0872.JPG" alt="">
+                    <p>冰糖燕窝</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0879.JPG" alt="">
+                    <p>红枣枸杞银耳燕窝</p>
+                    <p>(贵妃滋补)</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0935.JPG" alt="">
+                    <p>石峰糖红枣桂圆燕窝</p>
+                    <p>(去腥开胃)</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A0965.JPG" alt="">
+                    <p>燕麦牛奶水果干燕窝</p>
+                    <p>(低脂健康餐)</p>
+                </div>
+                <div>
+                    <img src="../images/0C5A1017.JPG" alt="">
+                    <p>椰奶西米露燕窝</p>
+                </div>
+            </div>
+        </div>
+        <!--品牌价值观-->
+        <div class="xText">
+            <h1>品牌价值观</h1>
+            <div class="ppjz">
+                <h2>品牌简介</h2>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;我们因热爱而专注，因专注而专业，臻远盛宴深耕燕窝三十余载，致力于打造最专业的燕窝服务商。在货源、质量、监测、服务方面要求做到极致，从源头直采，全程严格管理和监测，由城市服务商面对面的服务，亲手将把每一盏燕窝从源头交到您手中，分享最好的给您。
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;200余座燕屋和32个国家备案正规工厂，由我们严格监测和管理，从工厂直供客户。臻远盛宴在大时代环境下不断提升和革新自我，将商业模式更新为燕窝城市服务商，优化产业结构和成本的同时，提供有温度的客户服务。
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;一盏好作品，一个工艺高超的老师往往只需要一碗清水+镊子纯手工打造，臻远盛宴以匠心打造作品，以作品回馈客户。
+                </p>
+            </div>
+            <!-- <div class="djk">
+                <h2>大健康</h2>
+            </div>
+            <div class="shzr">
+                <h2>社会责任</h2>
+            </div> -->
+            <div class="video">
+                <h2>宣传视频</h2>
+                <video src="../video/薛之谦 - 刚刚好.mp4" controls></video>
+            </div>
+        </div>
+        <!--健康宝典-->
+        <div><img class="img" src="../images/7W214CA9@C8NE2L_QV25[N6.jpg" alt=""></div>
+        <div class="menu">
+            <div class="jkbd">
+                <h2>健康宝典</h2>
+                <a href="#">1.孕妈妈（孕期怎么吃燕窝)</a>
+                <a href="#">2.宝妈（产后恢复指导)</a>
+                <a href="#">3.中年女性（保养皮肤的秘诀)</a>
+                <a href="#">4.年轻白领（低脂低糖、保持好身材的秘诀)</a>
+                <a href="#">5.应酬人士（呵护工作劳累的你)</a>
+                <a href="#">6.备孕夫妻（为生健康宝宝准备要点)</a>
+                <a href="#">7.减脂减重（选择什么样的燕窝食谱)</a>
+                <a href="#">8.美容轻体（冻龄女神的秘方)</a>
+            </div>
+            <div class="city">
+                <h2>招募城市服务商</h2>
+                <p>1.提供所在地区精准客户资源；</p>
+                <p>2.提供全面的专业知识和系统培训；</p>
+                <p>3.提供营销策划和营销物料的支持；</p>
+                <p>4.提供城市人服务商身份和授予品牌使用权；</p>
+                <p>5.为每位城市人服务商设计形象和打造平台；</p>
+                <p>6.提供相关必要技术资料和专业指导；</p>
+                <p>7.区域市场保护政策，各区域合伙人拥有独立的经营空间；</p>
+                <p>8.提供相关必要技术资料和专业指导。</p>
+                <p></p>
+            </div>
+            <div class="tp">
+                <p>合作流程：咨询合伙人政策→沟通商业模式理念→当地市场调研→洽谈合伙人细则→进行全面系统培训→考核培训结果→签订合伙人协议→开始市场销售</p>
+                <img class="ck" src="../images/f9afd27dc69c6a5ad3bae8a67b599f85_3-1Q019133H2.jpg" alt="">
+                <p class="tp_">
+                    <span>合伙人热线:</span>
+                    <a href="#">15198805086</a>
+                </p>
+            </div>
+            <div><img class="img" src="../images/7c7c12822bfbde875402e3e7c8bfa00.jpg" alt=""></div>
+        </div>
+
+        <!--关于臻远-->
+        <div class="footer">
+            <h1>关于臻远</h1>
+            <div>1.值得信赖的品牌</div>
+            <div>
+                <p>2.城市客服：</p>
+                <p>成都片区联系人：<a href="#">严先生 151 9880 5086</a></p>
+                <p>昆明片区联系人：<a href="#">李先生 151 9880 5086</a></p>
+                <p>昭通片区联系人：<a href="#">李先生 158 0863 8971</a></p>
+                <p>临沧片区联系人：<a href="#">董先生 177 0884 3093</a></p>
+            </div>
+            <div>3.企业责任（保护环境、回馈社会）</div>
+            <div>4.管理与监测（溯源+内部监测，让客户更放心）</div>
+            <div class="foot">
+                <p>企业邮箱：<a href="#">zhenyuantradeyan@aliyun.com</a></p>
+                <p>线下店地址：<a href="#">昆明市官渡区北京路358号</a></p>
+            </div>
+        </div>
+        <div class="pl">
+            <img src="../images/P~1Z@WRQRX233MGLP56O3J7.jpg" alt="">
+            <p>扫一扫添加客服微信</p>
+        </div>
+    </div>
+</body>
+
+</html>
